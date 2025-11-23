@@ -4,7 +4,7 @@
 
 # DiIiS Project
 
-DiIiS is a fully-functional open-source local server for [Diablo III: Reaper of Souls](https://eu.diablo3.blizzard.com).
+DiIiS is a fully-functional open-source local server for [Diablo III: RoS]
 
 ## Features
 
@@ -54,7 +54,7 @@ The currently supported version of the client: **2.7.4.84161**
 ```shell
 dotnet publish ./src/DiIiS-NA/Blizzless.csproj --configuration Release --output ./publish
 ```
-3. __Skip this stage for local game__ Copy the [config.mods.json](https://github.com/blizzless/blizzless-diiis/blob/community/configs/config.mods.json) file to the folder, and modify however you want. A file will be generated automatically from the `config.ini` for now.
+3. __Skip this stage for local game__ Copy the [config.mods.json] - file to the folder, and modify however you want. A file will be generated automatically from the `config.ini` for now.
 4. Update your `config.ini` file on the published folder with your network's IP records (`BindIP` and `PublicIP`)
 5. Go to the publish folder, launch Blizzless executable, wait until server start - it creates a hierarchy.
 6. Create user account(s) using console: `!account add Login Password Tag`
@@ -68,9 +68,9 @@ dotnet publish ./src/DiIiS-NA/Blizzless.csproj --configuration Release --output 
 
 Do this for each client connecting to the server.
 
-1. Get [supported client](#supported-clients) Diablo 3.
+1. Get Diablo 3.
 
-2. Install certificate [bnetserver.p12](src/DiIiS-NA/bnetserver.p12), password - `123` (the game verifies the CA root certificates).
+2. Install certificate [bnetserver.p12]-src/DiIiS-NA/bnetserver -p12, password - `123` (the game verifies the CA root certificates).
 
 3. Setting up redirects client to your server:
 
@@ -104,15 +104,15 @@ Do this for each client connecting to the server.
 
 ## Global configuration
 
-Using the configuration file you can easily override the [global world parameters](docs/game-world-settings.md).
+Using the configuration file you can easily override the [global world parameters] - docs/game-world-settings.md.
 
 ## Command system
 
-The command system allows you to get control of the game world if you have rights. A list of commands is available [here](docs/commands-list.md).
+The command system allows you to get control of the game world if you have rights. A list of commands is available here - docs/commands-list.md.
 
 # Issues
 
-Check the [report form](docs/report-form.md) before submitting issue, this will help people save time!
+Check the report form docs/report-form.md before submitting issue, this will help people save time!
 
 # System requirements
 
